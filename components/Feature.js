@@ -19,7 +19,7 @@ const FeatureBox = (props) => {
                 </div>
                 <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
                 <p className="text-muted mb-3 f-15">{feature.desc}</p>
-                <a href={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></a>
+                <a href={feature.link} className="f-16 text-warning">Ver Mas <span className="right-icon ml-2">&#8594;</span></a>
               </div>
             </Col>
         </Row>
@@ -32,7 +32,7 @@ const FeatureBox = (props) => {
             </div>
             <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
             <p className="text-muted mb-3 f-15">{feature.desc}</p>
-            <a href={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></a>
+            <a href={feature.link} className="f-16 text-warning">Ver Mas <span className="right-icon ml-2">&#8594;</span></a>
           </div>
         </Col>
         <Col md={{size:5, offset:1}} className="mt-5 mt-sm-0">
@@ -48,9 +48,9 @@ const FeatureBox = (props) => {
 }
 const Feature = () => {
 const features = [
-    {id : 1, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
-    {id : 2, img : "./images/Group Members.png", title : "LOREM IPSUM", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
-    {id : 3, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
+    {id : 1, img : "./images/javaScript.png", title : "JavaScript", desc : "es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa", link : "/"},
+    {id : 2, img : "./images/java.png", title : "Java", desc : "La primera característica, orientado a objetos (“OO”), se refiere a un método de programación y al diseño del lenguaje. Aunque hay muchas interpretaciones para OO, una primera idea es diseñar el software de forma que los distintos tipos de datos que usen estén unidos a sus operaciones.", link : "/"},
+    {id : 3, img : "./images/php.png", title : "PHP", desc : "es un lenguaje de programación de uso general que se adapta especialmente al desarrollo web", link : "/"},
   ];
 return (
     <section className="section" id="feature">
@@ -58,8 +58,8 @@ return (
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
-              <h3 className="font-weight-normal text-dark"><span className="text-warning">Features</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <h3 className="font-weight-normal text-dark"><span className="text-warning">Caracteristicas</span></h3>
+              <p className="text-muted">En estas clases te enseñaremos como utilizar las herramientas para la programacion profesional.</p>
             </div>
           </Col>
         </Row>
