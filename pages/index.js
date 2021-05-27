@@ -7,7 +7,7 @@ import About from '../components/About';
 import Footer from '../components/Footer';
 const Index = () => {
   return (
-    <Layout pageTitle="Landing Page Nextjs">
+    <Layout pageTitle="WEB APP">
       <Header />
       <Hero />
       <Feature/>
