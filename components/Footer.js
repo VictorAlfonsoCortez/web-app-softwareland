@@ -2,19 +2,19 @@ import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 const Footer = () => {
   const links = [
-    { id : 1, title : "Feature",
+    { id : 1, title : "Caracteristicas",
       child : [
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" }
+          { title : "PHP", link : "/" },
+          { title : "JAVASCRIPT", link : "/" },
+          { title : "JAVA", link : "/" },
+          { title : "C++", link : "/" }
       ]
     },
-    { id : 2, title : "About Us",
+    { id : 2, title : "Acerca de nosotros",
       child : [
-          { title : "Contact Us", link : "/" },
-          { title : "FAQs", link : "/" },
-          { title : "Privacy Policy", link : "/" },
+          { title : "Contactanos", link : "/" },
+          { title : "Politicas de provacidad", link : "/" },
+          { title : "Comentarios", link : "/" },
       ]
     },
   ];
@@ -25,8 +25,8 @@ const Footer = () => {
         <Row>
           <Col lg={4}>
               <div className="mb-4">
-                <p className="text-muted mt-4 mb-2">email@email.com</p>
-                <h6 className="text-muted font-weight-normal">+99 1234-5678-9</h6>
+                <p className="text-muted mt-4 mb-2">HolaMundoProgramacion@email.com</p>
+                <h6 className="text-muted font-weight-normal">+52 443-125-1548</h6>
               </div>
           </Col>
           <Col lg={8}>
@@ -47,9 +47,9 @@ const Footer = () => {
               }
               
               <Col md={4}>
-                <h6 className="text-dark mb-3">Our Address</h6>
-                <p className="text-muted f-14">1234 Lorem Ipsum dummy text, 12345</p>
-                <h6 className="text-muted pb-2">Email: email@email.com</h6>
+                <h6 className="text-dark mb-3">Nuestra Direccion</h6>
+                <p className="text-muted f-14">#23 Las Tarascas</p>
+                <h6 className="text-muted pb-2">Email: HR_HolaProgramacion@email.com</h6>
                 <ul className="list-unstyled footer-social-list mt-4">
                   <li className="list-inline-item"><a href="#"><i className="mdi mdi-facebook"></i></a></li>
                   <li className="list-inline-item"><a href="#"><i className="mdi mdi-instagram"></i></a></li>
@@ -62,7 +62,7 @@ const Footer = () => {
 <Row className="mt-5">
           <Col md={12}>
             <div className="text-center text-muted">
-              <p className="mb-0 f-15">2020 © Name. Design by Name</p>
+              <p className="mb-0 f-15">2021 © Derechos reservados. Diseñado por WEB APP</p>
             </div>
           </Col>
         </Row>
